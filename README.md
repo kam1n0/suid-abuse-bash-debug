@@ -7,12 +7,13 @@ Note: This will work on Bash versions <= 4.4
 
 1) Find all the SUID/SGID executables on the Linux machine
 
-link suid
+[![Image of suid](https://github.com/kam1n0/suid-abuse-bash-debug/blob/master/tmp_upload/suid.png)](#)
 
 2) 	Run the /usr/local/bin/suid-env2 executable with bash debugging enabled and the PS4 variable set to an embedded command which creates a SUID verion of /bin/bash:
 
-link debug
+[![Image of debug1](https://github.com/kam1n0/suid-abuse-bash-debug/blob/master/tmp_upload/debug1.png)](#)
+[![Image of debug2](https://github.com/kam1n0/suid-abuse-bash-debug/blob/master/tmp_upload/debug2.png)](#)
 
 3) 	Run the /tmp/rootbash executable with -p to gain a shell running root privileges:
 
-link root
+[![Image of root](https://github.com/kam1n0/suid-abuse-bash-debug/blob/master/tmp_upload/root.png)](#)
